@@ -1,5 +1,8 @@
 # `pydantic-async-validation`
 
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/pydantic-async-validation?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/pydantic-async-validation)
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/pydantic-async-validation?period=monthly&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads%2Fmonth)](https://pepy.tech/projects/pydantic-async-validation)
+
 Add async validation to your pydantic models 🥳. This allows you to add validation that actually checks the database
 or makes an API call or just use any code you did write async.
 
