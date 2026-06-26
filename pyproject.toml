@@ -1,6 +1,6 @@
 [project]
 name = "pydantic-async-validation"
-version = "0.5.0"
+version = "0.5.1"
 description = "Add async validation to pydantic"
 authors = [{ name = "David Danier", email = "david.danier@gmail.com" }, { name = "TEAM23 GmbH", email = "info@team23.de" }]
 license = "MIT"
