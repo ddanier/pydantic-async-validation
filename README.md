@@ -66,7 +66,7 @@ class SomethingModel(AsyncValidationModelMixin, pydantic.BaseModel):
     @async_field_validator('name', 'other_name', some_extra='value')
     async def validate_name(self, value: str, field: str, config: ValidationInfo) -> None:
         if value == "invalid":
-            # Using ValueError 
+            # Using ValueError
             raise ValueError(f"Invalid {field} with extra {config.extra['some_extra']}")
 ```
 
@@ -92,7 +92,7 @@ class SomethingModel(AsyncValidationModelMixin, pydantic.BaseModel):
 
     @async_model_validator(some_extra='value')
     async def validate_names(self, config: ValidationInfo) -> None:
-        # Using assertion 
+        # Using assertion
         assert self.name != self.other_name, f"Names are equal with extra {config.extra['some_extra']}"
 ```
 
