@@ -24,7 +24,7 @@ dev = [
     "pytest-asyncio>=0.24.0,<1.5.0",
     "tox>=4.30.3,<5.0",
     "httpx>=0.28.1,<0.29.0",
-    "ruff>=0.14.0,<0.17.0",
+    "ruff>=0.14.0,<0.18.0",
     "pyright>=1.1.406,<1.2",
 ]
 
@@ -43,7 +43,7 @@ ignore = ["A001","A002","A003","ANN401","C901","N8","B008","F405","F821"]
 "test_*.py" = ["S101","ANN","F401"]
 
 [build-system]
-requires = ["uv_build>=0.8.22,<0.13.0"]
+requires = ["uv_build>=0.8.22,<0.14.0"]
 build-backend = "uv_build"
 
 [tool.uv.build-backend]
